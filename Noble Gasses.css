@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(25, 25, 25);
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  font-family: Roboto;
+  margin-left: 20px;
+  margin-top: 26px;
+}
+
+.gas-he, .gas-ar, .gas-kr, .gas-xe {
+  border-width: 4px;
+  border-style: solid;
+  width: 200px;
+  margin-right: 40px;
+  text-align: center;
+  border-radius: 4px
+}
+
+.gas-he:hover, .gas-ar:hover, .gas-kr:hover, .gas-xe:hover {
+  scale: 1.1;
+}
+
+.gas-he {
+  color: rgb(255, 255, 90);
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.gas-ar {
+  color: rgb(255, 120, 255);
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.gas-kr {
+  color: rgb(90, 255, 255);
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.gas-xe {
+  color: rgb(240, 240, 240);
+  margin-right: 0px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.top {
+  font-weight: 500;
+  margin-top: 40px;
+  font-size: 32px;
+}
+
+.middle {
+  font-weight: bold;
+  font-size: 72px;
+  text-shadow: 0px 0px 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bottom {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
